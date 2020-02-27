@@ -8,22 +8,18 @@ fn main() {
     println!("THe value of x is {}", x);
      */
 
-    /*
     //variable shadowing
     let x = 5;
     let x = x + 1;
     let x = x * 2;
 
     println!("The value of x is {}", x);
-     */
 
-    /*
     let x = 2.1; //f64 by default
     let y: f32 = 3.2;
 
     println!("The value of x is {}", x);
     println!("The value of y is {}", y);
-     */
 
     //addition
     let x = 5 + 10;
@@ -44,4 +40,16 @@ fn main() {
     //remainder
     let x = 43 % 5;
     println!("The value of x is {}", x);
+
+    // booleans
+    let t = true;
+    let f: bool = false;
+
+    if t {
+        println!("True!");
+    }
+
+    if !f {
+        println!("False!");
+    }
 }
