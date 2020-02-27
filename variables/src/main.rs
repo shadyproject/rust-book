@@ -34,7 +34,7 @@ fn main() {
     println!("The value of x is {}", x);
 
     //division
-    let x = 10/2;
+    let x = 10 / 2;
     println!("The value of x is {}", x);
 
     //remainder
@@ -52,4 +52,13 @@ fn main() {
     if !f {
         println!("False!");
     }
+
+    // characters
+    let c = 'z';
+    let z = 'ℤ';
+    let heart_eyed_cat = '😻';
+
+    println!("The value of c is {}", c);
+    println!("The value of z is {}", z);
+    println!("The value of heart_eyed_cat is {}", heart_eyed_cat);
 }
