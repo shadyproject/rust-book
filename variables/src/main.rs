@@ -62,9 +62,8 @@ fn main() {
     println!("The value of z is {}", z);
     println!("The value of heart_eyed_cat is {}", heart_eyed_cat);
 
-    //tuples
+    // tuples
     let tup: (i32, f64, u8) = (500, 6.4, 1);
-    // println!("The value of t is {}", tup); This doesn't work!
 
     let (x, y, z) = tup;
     println!("The value of x is {}", x);
