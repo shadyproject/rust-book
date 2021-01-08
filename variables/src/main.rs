@@ -1,10 +1,7 @@
 fn main() {
-    const MAX_POINTS: u32 = 100_00;
-    println!("Total number of points available: {}", MAX_POINTS);
+    let x = 2.0; //f64
+    println!("{}", x);
 
-    // shadowing lets you change the type of the variable, unlike mut
-    let spaces = "    ";
-    let spaces = spaces.len();
-
-    println!("There are {} spaces.", spaces);
+    let y: f32 = 3.0; //f32
+    println!("{}", y)
 }
