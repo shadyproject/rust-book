@@ -4,4 +4,8 @@ fn main() {
 
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     println!("{}", months[11]);
+
+    //init an array with the same thing
+    let b = [0; 5];
+    println!("{}", b[3]);
 }
