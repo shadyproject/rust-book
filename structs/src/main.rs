@@ -6,20 +6,16 @@ struct User {
 }
 
 fn main() {
-    let user1 = User {
-        email: String::from("test@test.com"),
-        username: String::from("test_user"),
-        active: true,
-        sign_in_count: 1,
-    };
+    let user1 = build_user(String::from("test@test.com"), String::from("test_user"));
 
     println!("{}", user1.username);
 }
 
 fn build_user(email: String, username: String) -> User {
+    // using the field init shorthand
     User {
-        email: email,
-        username: username,
+        email,
+        username,
         active: true,
         sign_in_count: 1,
     }
